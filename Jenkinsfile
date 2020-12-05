@@ -30,7 +30,7 @@ pipeline {
             echo 'gct*** testing the app using maven...'
             echo 'here we are gonna test the template test, and two other tests from project 1'
 
-            sh "run mvn test"
+            sh "mvn test"
         }
       }
       
