@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="C:\Users\role\Desktop\School\School 2k20\Fall &apos;20\CS4723 Software Val and Qual Assurance\Project2\target/apidocs/META-INF">
+    <fileset dir="C:\Users\role\Desktop\School\School 2k20\Fall &apos;20\CS4723 Software Val and Qual Assurance\Project2">
+      <include name="LICENSE.txt"/>
+      <include name="NOTICE.txt"/>
+    </fileset>
+  </copy>
+</target>
+</project>
