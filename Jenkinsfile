@@ -38,6 +38,7 @@ pipeline {
         
         steps {
             echo 'deploying the app...'
+            sh './jenkins/deploy.sh'
         }
       }
     }
